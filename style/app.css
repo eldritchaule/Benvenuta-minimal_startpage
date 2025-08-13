@@ -10,6 +10,7 @@ rosepine
 --main-bg2:#1f1d2e;
 --main-fg:#e0def4;
 --main-fg2:#eb6f92;
+
 /*dracula
 --main-bg:#282a36;
 --main-bg2:#44475a;
@@ -37,6 +38,7 @@ rosepine
 /* --main-fg2:#00ff00; */
 };
 
+
 * {
   font-family: 'Fira Code', Courier, monospace;
   padding: 0;
@@ -53,9 +55,9 @@ rosepine
 body{
   width: 100vw;
   height: 100vh;
-  color: var(--main-fg);
+  color: #e0def4;
   margin:0;
-  background-color:var(--main-bg);
+  background-color:#191724;
 }
 
 #time,
@@ -105,24 +107,24 @@ body{
   align-items: center;
   padding: 5px;
   border-radius: 25px;
-  background-color: var(--main-bg2);
+  background-color: #1f1d2e;
 }
 
 hr{
   width: 60%;
   display: block;
-  border: 1px solid  var(--main-fg2);
+  border: 1px solid  #eb6f92;
   border-radius: 4px;
 }
 ::placeholder { 
-  color: var(--main-fg);
+  color: #e0def4;
   opacity: 0.75; 
 }
 
 .tsb {
   outline: none;
   border: none;
-  background-color:var(--main-bg2);
+  background-color: #1f1d2e;
   font-size: 18px;
 }
 
@@ -130,8 +132,8 @@ hr{
   outline: none;
   border-radius: 25px;
   border: none;
-  background-color: var(--main-bg2);
-  color: var(--main-fg);
+  background-color: #1f1d2e;
+  color: #e0def4;
   font-size: 18px;
 }
 
@@ -139,19 +141,19 @@ hr{
   outline: none;
   border: none;
   border-radius: 25px;
-  background-color: var(--main-bg2);
-  color: var(--main-fg);
+  background-color: #1f1d2e;
+  color: #e0def4;
   font-size: 18px;
 } 
 
 a {
   text-decoration: none;
-  color: var(--main-fg);
+  color: #e0def4;
 }
 
 .table_button:hover,
 a:hover{
-  color: var(--main-bg2);
+  color: #1f1d2e;
   transition: 0.0s;
 }
 
@@ -162,9 +164,9 @@ a:hover{
 
 #m1,
 #m2 {
-  background: var(--main-bg2);
+  background: #1f1d2e;
   border-radius: 10px;
-  box-shadow: 5px 5px 2.5px var(--main-fg2);
+  box-shadow: 5px 5px 2.5px #eb6f92;
   display: flex;
   justify-content: space-evenly;
   padding: 5px;
@@ -190,22 +192,22 @@ td {
  }
 
 .table_button{
-   background: var(--main-bg2);
+   background: #1f1d2e;
    width: 125px;
    border: none;
    border-radius: 50px;
    margin: 5px;
-   color: var(--main-fg);
+   color: #e0def4;
 }
 
 .table_button:hover,
 td:hover{
-  background: var(--main-fg2);
+  background: #eb6f92;
   transition: 0.5s;
 }
 
  .button_div {
-  background: var(--main-bg2);
+  background: #1f1d2e;
   margin-top: 10px;
   display: flex;
   justify-content: space-evenly;
